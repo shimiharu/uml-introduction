@@ -1,0 +1,11 @@
+@startuml ユースケース図
+actor 利用者 #DDDDDD;line:black;line.bold;
+rectangle ホテル宿泊予約 {
+usecase キャンペーン
+usecase (<u>予約</u>\n拡張点\nキャンペーン期間)
+usecase (ログイン)
+}
+(<u>予約</u>\n拡張点\nキャンペーン期間) <. (キャンペーン) :<<extend>>
+(<u>予約</u>\n拡張点\nキャンペーン期間)<--利用者
+(ログイン) <. (<u>予約</u>\n拡張点\nキャンペーン期間) :<<include>>
+@enduml
