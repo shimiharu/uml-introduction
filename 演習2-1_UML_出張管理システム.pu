@@ -1,8 +1,8 @@
 @startuml 演習2-1
 left to right direction
-actor 申請者 as u1 user #DDDDDD;line:black;line.bold;
-actor 承認者 as u2 admin #DDDDDD;line:black;line.bold;
-actor 経理担当者 as u3 admin #DDDDDD;line:black;line.bold;
+actor 申請者 as u1 #DDDDDD;line:black;line.bold;
+actor 承認者 as u2 #DDDDDD;line:black;line.bold;
+actor 経理担当者 as u3 #DDDDDD;line:black;line.bold;
 actor 交通費精算システム as u4 #DDDDDD;line:black;line.bold;
 rectangle 出張申請システム {
 usecase 出張申請を登録する as 1
