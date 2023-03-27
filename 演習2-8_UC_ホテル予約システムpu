@@ -7,7 +7,7 @@ left to right direction
 
 rectangle ホテル予約システム {
 usecase 会員登録する as a1
-usecase キャンペーン as a2
+usecase キャンペーン価格にする as a2
 usecase 空室状況を閲覧する as a3
 usecase 予約の集計をする as a4
 
@@ -23,7 +23,7 @@ u3--->a4
 u2-->a7
 a2 ...>(a5) : <<extend>>
 u1--->a3
-a5 ..>(a6) : <<extend>>
+a5 ..>(a6) : <<include>>
 a4 ..>(a6) : <<include>>
 a7 ..>(a6) : <<include>>
 
