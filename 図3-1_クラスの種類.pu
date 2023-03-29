@@ -1,6 +1,5 @@
 @startuml
 skinparam classAttributeIconSize 0
-hide Employee circle
 ' class A<<ステレオタイプ>>{}
 ' class B{
 ' - 属性1:int
@@ -32,4 +31,5 @@ class Employee{
 +getDept():String
 
 }
+hide Employee circle
 @enduml
