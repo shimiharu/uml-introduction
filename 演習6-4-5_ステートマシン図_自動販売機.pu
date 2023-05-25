@@ -1,4 +1,4 @@
-@startuml 演習6-4-5
+@startuml
 left to right direction
 [*] --> 料金投入待ち: 電源ON
 料金投入待ち --> [*] : 電源OFF

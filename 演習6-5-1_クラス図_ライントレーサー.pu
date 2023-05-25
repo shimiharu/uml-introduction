@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+class "ライントレーサー" as l{
+
+}
+class "光センサー" as f{
+
+}
+class "右モータ" as m{
+
+}
+class "左モータ" as h{
+
+}
+class "CPU" as c{
+
+}
+class "電源SW" as d{
+
+}
+l "1"*--"1" f
+l "1"*--"1" m
+l "1"*--"1" h
+l "1"*--"1" c
+l "1"*--"1" d
+@enduml
